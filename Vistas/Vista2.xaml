@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RepasoPA.Vistas.Vista2"
+             Title="Vista2">
+    <VerticalStackLayout>
+        <Label x:Name="lblUsuario"
+               TextColor="Red"
+               HorizontalTextAlignment="End"
+   
+             />
+        <Label Text="VENTANA DE REGISTRO"
+               FontSize="20"
+               HorizontalTextAlignment="Center"/>
+
+        <Picker x:Name="estudiantes">
+            <Picker.Items>
+                <x:String>Stalin</x:String>
+                <x:String>Rodney</x:String>
+                <x:String>Jose</x:String>
+            </Picker.Items>
+
+        </Picker>
+        <Entry x:Name="txtSalario"
+               Placeholder="Ingrese salario"
+               Keyboard="Numeric"
+               MaxLength="5"
+               />
+        <DatePicker x:Name="Fechas" Date="01/01/2024"/>
+
+        <Button x:Name="btnCalcular"
+                Text="Calcular"
+                Clicked="btnCalcular_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepasoPA", "RepasoPA.csproj", "{F8A80F6D-9989-4E4A-B1BB-304023EA3457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8A80F6D-9989-4E4A-B1BB-304023EA3457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A80F6D-9989-4E4A-B1BB-304023EA3457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A80F6D-9989-4E4A-B1BB-304023EA3457}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F8A80F6D-9989-4E4A-B1BB-304023EA3457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A80F6D-9989-4E4A-B1BB-304023EA3457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A80F6D-9989-4E4A-B1BB-304023EA3457}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D71F25AE-B73F-478F-B6C5-E67297EC9991}
+	EndGlobalSection
+EndGlobal
